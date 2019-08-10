@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueRegular.eot');
+    src: url('../fonts/HelveticaNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueRegular.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueRegular.woff') format('woff'),
+        url('../fonts/HelveticaNeueRegular.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueRegular.svg#HelveticaNeueRegular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Semibold.eot');
+    src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1 'Proxima Nova Rg', Tahoma, Arial, sans-serif;
+    color: #000;
+    background:  #fafafa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+input, button {
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.wraper {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container {
+    max-width: 956px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.title35{
+    font-size: 35px;
+    font-family: 'Myriad Pro';
+}
+.title15{
+    font-size: 15px;
+    font-family: 'HelveticaNeue';
+}
+.title17-b{
+    font-size: 17px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+}
+.title17-r{
+    font-size: 17px;
+    font-family: 'Proxima Nova Rg';
+}
+.title17-sb{
+    font-size: 17px;
+    font-family: 'Proxima Nova Lt';
+}
+.title12-r{
+    font-size: 12px;
+    font-family: 'Proxima Nova Rg';
+}
+.title17-t{
+    font-size: 17px;
+    font-family: Tahoma;
+}
+.block{
+    background: #fff;
+        padding-bottom: 26px;
+}
+.navigation{
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.logo{
+    width: 33.5%;
+    padding-left: 56px;
+}
+.logo img{
+    width: 161px;
+    height: 166px;
+}
+.navigation-info{
+    width: 66.5%;
+    padding: 40px 0 0;
+}
+.start-date{
+    padding: 8px 0 0 9px;
+    width: 149px;
+    height: 31px;
+    border: 1px solid #4090db;
+    border-radius: 3px;
+    color: #4090db;
+    line-height: 1;
+}
+.navigation-info .title35{
+     margin: -2px 23px 0 0;
+     letter-spacing: -1.5px;
+     color: #000;
+}
+.statistics{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.statistics ul{
+    margin-right: 29px;
+    color: #000;
+}
+.navigation-title{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 19px;
+}
+.statistics .title17-b{
+    margin-right: 4px;
+}
+.date{
+    margin-top: 19px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.date input{
+    margin: 0 14px;
+    height: 32px;
+    width: 183px;
+    border: 1px solid #ccc;
+   border-radius: 5px;
+   padding-left: 8px;
+}
+
+.news-list{
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 57px -15px 28px;
+}
+.news-img-wrap{
+    width: 292px;
+   
+   height: 292px;
+    margin: 15px;
+    position: relative;
+        overflow: hidden;
+    padding: 14px 21px;
+}
+.news-img-wrap img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: none;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.img-video{
+    position: absolute;
+    z-index: 6;
+    right: 10px;
+    top: 11px;
+    width: 38px;
+    height: 30px;
+}
+.info{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 3;
+    width: 85.6%;
+}
+.col1{
+    width: 41.6%;
+}
+.col2{
+    width: 30%;
+    position: relative;
+    padding-left: 27px;
+}
+.col2:before{
+    content: '';
+    width: 21px;
+    height: 19px;
+    position: absolute;
+        background-image: url(../img/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    left: 0;
+}
+.col2-1{
+    width: 30%;
+    position: relative;
+    padding-left: 27px;
+}
+.col2-1:before{
+    content: '';
+    width: 17px;
+    height: 21px;
+    position: absolute;
+        background-image: url(../img/icon3.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    left: 0;
+}
+.col3{
+    width: 28.4%;
+    position: relative;
+    padding-left: 24px;
+}
+.col3:before{
+    content: '';
+    width: 17px;
+    height: 17px;
+    position: absolute;
+        background-image: url(../img/icon2.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    left: 0;
+}
+.today-like{
+    margin-bottom: 22px;
+}
+.data-like1{
+    margin-bottom: 30px;
+}
+.data-like{
+    margin-bottom: 78px;
+}
+.upload{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+     margin-bottom: 14px;
+}
+.btn1 input {
+    width: 128px;
+    background: #fafafa;
+    cursor: pointer;
+    padding: 8px 0;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 16px;
+    outline: none;
+}
+.btn{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 74px;
+}
+
+@media (max-width: 1000px) {
+    .news-list {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+@media (max-width: 780px) {
+    .logo {
+        width: 25%;
+    padding-left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.navigation-info {
+    width: 75%;
+}
+}
+@media (max-width: 640px) {
+      .logo {
+        width: 30%;
+}
+.navigation-info {
+    width: 70%;
+}
+.date input {
+    margin: 0 0 10px 14px;
+}
+#date1{
+    margin-left: 49px;
+}
+}
+@media (max-width: 573px) {
+  .navigation-info .title35 {
+    margin: 0 30px 10px 0;
+}
+      .logo {
+        width: 40%;
+}
+.navigation-info {
+    width: 60%;
+}
+}
+@media (max-width: 495px) {
+      .logo {
+        width: 100%;
+}
+.navigation-info {
+    width: 100%;
+    padding: 10px 0 0;
+}
+}
